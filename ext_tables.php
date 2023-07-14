@@ -1,8 +1,7 @@
 <?php
+defined('TYPO3') || die();
 
-defined('TYPO3_MODE') || defined('TYPO3') ||die('Access denied.');
-
-(static function ($EXT_KEY) {
+(static function ($_EXTKEY) {
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
         'QrRedirects',
         'site',

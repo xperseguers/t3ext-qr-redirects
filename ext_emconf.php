@@ -1,14 +1,10 @@
 <?php
-
-declare(strict_types=1);
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'QR Redirects',
-    'description' => 'This extension provides a backend module to generate short URLs and QR codes leading to a given page.',
-    'category' => 'services',
+    'description' => 'This extension provides a Backend module to generate short URLs and QR codes leading to a given page.',
+    'category' => 'backend',
     'version' => '1.0.0-dev',
-    'state' => 'dev',
-    'uploadfolder' => 0,
+    'state' => 'alpha',
     'createDirs' => '',
     'clearcacheonload' => 0,
     'author' => 'Xavier Perseguers',
