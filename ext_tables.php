@@ -12,7 +12,7 @@ defined('TYPO3') || die();
         ],
         [
             'access' => 'user,group',
-            'icon' => 'EXT:qr_redirects/Resources/Public/Icons/module-qr-redirects.png',
+            'icon' => 'EXT:qr_redirects/Resources/Public/Icons/Extension.png',
             'labels' => 'LLL:EXT:qr_redirects/Resources/Private/Language/locallang_mod.xlf',
         ]
     );
